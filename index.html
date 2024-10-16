@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochi Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                screens: {
+                    'sm': '750px',
+                    // => @media (min-width: 640px) { ... }
+
+                    'md': '900px',
+                    // => @media (min-width: 768px) { ... }
+
+                    'lg': '1000px',
+                    // => @media (min-width: 1024px) { ... }
+
+                    'xl': '1280px',
+                    // => @media (min-width: 1280px) { ... }
+
+                    '2xl': '1536px',
+                    // => @media (min-width: 1536px) { ... }
+                },
+                extend: {
+                    screens: {
+                        'tablet':{"min": "550px", "max": "750px"},
+                        'mini':{"min": "450px", "max": "550px"},
+                        'mobile':{"min": "360px", "max": "450px"},
+                        'micro':{"min": "220px", "max": "360px"}
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+  <div class="website overflow-hidden">
+      <header class='absolute top-0 left-0 w-full z-[50]'>
+        <nav class='flex justify-between items-center lg:px-12 md:px-10 sm:px-8 tablet:px-6 mini:px-4 mobile:px-4 micro:px-4 py-5'>
+            <a href='#'>
+              <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path><path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path><path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path><path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path><path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+              </svg>
+            </a>
+            <div class='md:flex justify-center items-center hidden gap-x-7 text-[17px]'>
+                <a href='#' class='animateNavLinksOnHover text-[15.5px] opacity-85'><span>Services</span></a>
+                <a href='#' class='animateNavLinksOnHover text-[15.5px] opacity-85'><span>Our work</span></a>
+                <a href='#' class='animateNavLinksOnHover text-[15.5px] opacity-85'><span>About us</span></a>
+                <a href='#' class='animateNavLinksOnHover text-[15.5px] opacity-85'><span>Insights</span></a>
+            </div>
+            <div class="md:inline-block hidden">
+                <a href='#' class='animateNavLinksOnHover text-[15.5px] opacity-85'><span>Contact us</span></a>
+            </div>
+            <div class="inline-block md:hidden">
+              <svg class="nav-toggle" width="24" height="9" viewBox="0 0 24 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="24" y1="8" x2="-4.37114e-08" y2="8" stroke="currentColor"></line>
+                <line x1="24" y1="1" x2="4.37114e-08" y2="1" stroke="currentColor"></line>
+              </svg>
+            </div>
+          </nav>
+      </header>
+      <div class='page1 w-full min-h-screen bg-[#F1F1F1] overflow-hidden' data-scroll data-scroll-speed="-6">
+          <div class='min-h-[100vh] relative z-[2] overflow-hidden'>
+              <div class='landingHeading lg:text-[135px] md:text-[120px] sm:text-[105px] tablet:text-[80px] mini:text-[60px] mobile:text-[63px] micro:text-[57px] md:pl-[50px] sm:pl-[40px] tablet:pl-[25px] mini:pl-[20px] mobile:pl-[15px] micro:pl-[10px] border-b-[1px] sm:pt-[5%] tablet:pt-[5%] border-b-solid border-b-black border-opacity-25 lg:leading-[100px] md:leading-[90px] sm:leading-[80px] tablet:leading-[58px] mini:leading-[45px] mobile:leading-[50px] micro:leading-[45px] sm:h-[80vh] tablet:h-[75vh] mini:h-[65vh] mobile:h-[60vh] micro:h-[57vh] mini:pb-10 mobile:pb-10 micro:pb-10 flex justify-center items-start flex-col font-[900] tablet:mt-[-30px]'>
+                  <h1 class='text-[#1E1E21]'>WE CREATE</h1>
+                  <div class='flex justify-center items-center w-[max-content] sm:gap-x-3 tablet:gap-x-2 mini:gap-x-[6px] mobile:gap-x-[4px] micro:gap-x-[2px]'><img src='images/Capture.png' class="landingImg rounded-lg sm:translate-y-[5px] tablet:translate-y-[5px] mini:translate-y-[3px] mobile:translate-y-[2px] micro:translate-y-[2px] sm:h-[85%] tablet:h-[85%] mini:h-[90%] mini:w-[70px] mobile:h-[90%] mobile:w-[65px] micro:h-[90%] micro:w-[55px] object-center object-cover"><h1 class='text-[#1E1E21]'>EYE-OPENING</h1></div>
+                  <h1 class='text-[#1E1E21]'>PRESENTATIONS</h1>
+              </div>
+              <div class="absolute sm:top-[25%] tablet:top-[20%] mini:top-[18%] right-0 z-[1]">
+                <svg class="w-[53.08px] h-[171.358px] tablet:scale-[0.8] tablet:translate-x-[5px]  mini:scale-[0.7] mini:translate-x-[8px]">
+                  <path class="js-color-bg" fill="#E73C37" d="M0 0h53.08v171.358H0z"></path>
+                  <g class="js-color-text" fill="#fff">
+                    <path d="M30.016 151.575a3.599 3.599 0 0 1-2.484 1.878l-.965-1.535c.623-.155 1.126-.401 1.506-.737.38-.337.57-.768.57-1.293 0-.4-.101-.722-.301-.966-.199-.242-.504-.365-.912-.365-.254 0-.478.083-.674.249a2.423 2.423 0 0 0-.511.62c-.146.249-.331.603-.556 1.061l-.204.424c-.293.584-.66 1.052-1.104 1.403-.443.351-1.011.525-1.703.525-.516 0-.983-.119-1.402-.357-.42-.239-.748-.575-.986-1.009s-.357-.929-.357-1.483c0-1.413.619-2.378 1.855-2.895l.979 1.535c-.721.253-1.082.706-1.082 1.359 0 .282.09.526.271.73.182.205.402.308.665.308s.495-.091.694-.271a2.51 2.51 0 0 0 .512-.657c.141-.258.324-.631.548-1.118.224-.478.454-.879.687-1.206a2.76 2.76 0 0 1 .914-.803c.375-.211.83-.315 1.367-.315.613 0 1.152.139 1.614.417.463.278.819.665 1.067 1.162s.373 1.062.373 1.695a3.545 3.545 0 0 1-.381 1.644M21.627 145.02a1.13 1.13 0 0 1-.833.336c-.332 0-.61-.111-.834-.336s-.336-.502-.336-.833c0-.332.112-.608.336-.833s.502-.337.834-.337c.331 0 .608.112.833.337s.336.501.336.833c0 .331-.111.608-.336.833m1.285-1.74h7.367v1.812h-7.367v-1.812zM29.709 140.226c-.458.479-1.135.716-2.031.716h-3.216v1.141h-1.55v-1.141H21.07l-1.139-1.812h2.98v-1.945h1.55v1.945h3.187c.438 0 .748-.081.928-.242.181-.16.27-.402.27-.723 0-.244-.057-.479-.175-.702l1.462-.424c.176.38.264.779.264 1.198-.001.849-.23 1.511-.688 1.989M29.833 134.72a3.333 3.333 0 0 1-1.433 1.169c-.579.249-1.182.373-1.805.373s-1.225-.124-1.805-.373a3.347 3.347 0 0 1-1.434-1.169c-.375-.531-.563-1.196-.563-1.995 0-.77.184-1.413.549-1.93a3.282 3.282 0 0 1 1.381-1.14 4.239 4.239 0 0 1 1.711-.365h.746v5.072a1.796 1.796 0 0 0 1.168-.49c.332-.307.496-.724.496-1.249 0-.41-.092-.753-.277-1.031-.185-.277-.473-.528-.862-.753l.542-1.462c.691.303 1.223.724 1.592 1.265.371.541.557 1.235.557 2.083 0 .798-.188 1.463-.563 1.995m-4.085-3.574c-.41.088-.746.261-1.009.519s-.394.611-.394 1.06c0 .429.135.784.408 1.067s.604.458.994.526v-3.172zM29.898 122.64c-.33.565-.783.996-1.359 1.294-.574.297-1.221.445-1.943.445-.721 0-1.369-.148-1.943-.445-.576-.298-1.029-.729-1.36-1.294s-.496-1.232-.496-2.002c0-.771.165-1.438.496-2.003a3.301 3.301 0 0 1 1.36-1.293c.574-.298 1.223-.446 1.943-.446.723 0 1.369.148 1.943.446a3.293 3.293 0 0 1 1.359 1.293c.332.564.497 1.232.497 2.003.001.769-.165 1.436-.497 2.002m-1.703-3.347c-.433-.331-.967-.497-1.6-.497s-1.167.166-1.602.497c-.433.33-.649.778-.649 1.345 0 .564.217 1.013.649 1.344.435.332.969.498 1.602.498s1.167-.166 1.6-.498c.435-.331.65-.779.65-1.344.001-.567-.215-1.015-.65-1.345M24.462 115.16v.936h-1.55v-.936h-.381c-.866 0-1.516-.227-1.95-.68-.433-.453-.649-1.074-.649-1.863 0-.556.096-1.014.291-1.374l1.463.396a2.238 2.238 0 0 0-.205.876c0 .556.307.834.92.834h.512v-1.55h1.55v1.55h5.817v1.812h-5.818zM29.709 105.543c-.458.479-1.135.717-2.031.717h-3.216v1.14h-1.55v-1.14H21.07l-1.139-1.813h2.98v-1.944h1.55v1.944h3.187c.438 0 .748-.081.928-.241.181-.16.27-.402.27-.724 0-.244-.057-.478-.175-.702l1.462-.424c.176.38.264.78.264 1.199-.001.848-.23 1.51-.688 1.988M19.931 101.104v-1.812h4.166a2.805 2.805 0 0 1-.942-.973 2.622 2.622 0 0 1-.358-1.367c0-.711.188-1.271.562-1.681.376-.409.93-.614 1.66-.614h5.262v1.813H25.66c-.449 0-.779.09-.994.27-.215.181-.321.455-.321.826 0 .292.103.57.308.833.204.263.516.478.936.644.418.166.945.249 1.578.249h3.113v1.812H19.931zM29.833 91.469a3.333 3.333 0 0 1-1.433 1.169 4.545 4.545 0 0 1-3.61 0 3.345 3.345 0 0 1-1.433-1.169c-.375-.532-.563-1.197-.563-1.995 0-.771.184-1.413.549-1.93a3.284 3.284 0 0 1 1.381-1.141 4.239 4.239 0 0 1 1.711-.365h.746v5.072c.446-.02.838-.183 1.168-.49.332-.307.496-.724.496-1.249 0-.409-.092-.753-.277-1.03-.185-.278-.473-.529-.862-.753l.542-1.462c.691.302 1.223.724 1.592 1.265.371.541.557 1.234.557 2.083-.001.797-.189 1.463-.564 1.995m-4.085-3.574c-.41.088-.746.261-1.009.519-.263.259-.394.611-.394 1.061 0 .428.135.784.408 1.066s.604.458.994.526v-3.172zM20.047 80.572V77.37c0-.847.187-1.631.557-2.353.369-.721.938-1.303 1.703-1.746.764-.444 1.717-.665 2.857-.665 1.139 0 2.092.221 2.857.665.764.443 1.332 1.025 1.701 1.746.371.722.557 1.506.557 2.353v3.202H20.047zm8.478-2.601c0-.975-.251-1.791-.753-2.448-.501-.658-1.372-.987-2.608-.987-1.238 0-2.107.329-2.609.987-.502.657-.754 1.474-.754 2.448v.701h6.725v-.701zM29.812 70.685c-.39.419-.94.628-1.651.628-.731 0-1.315-.277-1.754-.833s-.658-1.306-.658-2.251v-1.286h-.321c-.36 0-.631.122-.812.365s-.271.551-.271.921c0 .633.282 1.059.849 1.271l-.352 1.535a2.326 2.326 0 0 1-1.484-.943c-.374-.512-.562-1.133-.562-1.863 0-.984.261-1.747.782-2.288.521-.54 1.289-.812 2.302-.812h4.399v1.492l-.936.19c.702.573 1.052 1.33 1.052 2.265.001.653-.194 1.19-.583 1.609m-1.382-3.246c-.277-.332-.645-.497-1.104-.497h-.146v1.213c0 .4.078.709.233.929.156.219.395.328.717.328a.655.655 0 0 0 .519-.227c.132-.151.197-.348.197-.592a1.742 1.742 0 0 0-.416-1.154M29.812 61.639l-6.9 2.674v-1.827l4.619-1.711-4.619-1.607v-1.813l10.349 3.801v1.754zM35.481 17.006l-4.782 14.969h-3.266l-2.584-9.682-2.584 9.682h-3.267l-4.783-14.969h3.713l2.674 10.275 2.525-10.275h3.444l2.525 10.275 2.674-10.275zM37.979 27.163c1.426 0 2.496 1.069 2.496 2.495 0 1.425-1.07 2.495-2.496 2.495s-2.494-1.07-2.494-2.495c-.001-1.426 1.068-2.495 2.494-2.495"></path>
+                  </g>
+                </svg>
+              </div>
+              <div class='opacity-90 flex justify-between items-center tablet:items-start tablet:flex-col mini:items-start mini:flex-col mobile:items-start mobile:flex-col micro:items-start micro:flex-col lg:px-14 md:px-12 sm:px-8 tablet:px-6 mini:px-4 mobile:px-4 micro:px-4 py-4 gap-y-3'>
+                <div>For public and private Companies</div>
+                <div class="sm:hidden">From the first pitch to IPO</div>
+                <div class='flex justify-between items-center gap-1'>
+                  <p>Start the project</p>
+                </div>
+              </div>
+              <div class='absolute bottom-0 left-[50%] translate-x-[-50%] opacity-50 hidden sm:block'>Scroll Down</div>
+          </div>
+      </div>
+      <div class='page2 marContainer bg-[#04453D] sm:pt-[90px] tablet:pt-[60px] mini:pt-[45px] mobile:pt-[40px] micro:pt-[35px] whitespace-nowrap sm:pb-[100px] tablet:pb-[60px] mini:pt-[50px] mobile:pt-[45px] micro:pt-[40px] sm:rounded-[5px] relative z-[3]' data-scroll data-scroll-speed="0">
+        <div class="border-t-[1px] border-b-[1px] border-t-solid border-b-solid border-opacity-50 border-t-white border-b-white">
+          <div class='flex justify-start items-center flex-shrink-0 flex-nowrap whitespace-nowrap'>
+              <h1 class="marquee text-[29vw] text-white font-semibold sm:leading-[25vw] tablet:leading-[26vw] mini:leading-[27.5vw] mobile:leading-[29vw] micro:leading-[30.5vw] md:mt-[-35px] sm:mt-[-28px] tablet:mt-[-22px] mini:mt-[-18px] mobile:mt-[-15px] micro:mt-[-12px]">WE ARE OCHI WE ARE OCHI WE ARE OCHI WE ARE OCHI&nbsp;</h1>
+              <h1 class="marquee text-[29vw] text-white font-semibold sm:leading-[25vw] tablet:leading-[26vw] mini:leading-[27.5vw] mobile:leading-[29vw] micro:leading-[30.5vw] md:mt-[-35px] sm:mt-[-28px] tablet:mt-[-22px] mini:mt-[-18px] mobile:mt-[-15px] micro:mt-[-12px]">WE ARE OCHI WE ARE OCHI WE ARE OCHI WE ARE OCHI&nbsp;</h1>
+              <h1 class="marquee text-[29vw] text-white font-semibold sm:leading-[25vw] tablet:leading-[26vw] mini:leading-[27.5vw] mobile:leading-[29vw] micro:leading-[30.5vw] md:mt-[-35px] sm:mt-[-28px] tablet:mt-[-22px] mini:mt-[-18px] mobile:mt-[-15px] micro:mt-[-12px]">WE ARE OCHI WE ARE OCHI WE ARE OCHI WE ARE OCHI&nbsp;</h1>
+          </div>
+        </div>
+      </div>
+      <div class='page3 bg-[#CDEA68] min-h-screen sm:rounded-[10px] sm:py-[50px] tablet::py-[40px] mini:py-[35px] mobile:py-[30px] micro:py-[25px] relative z-[4]'>
+          <h3 class='md:text-[4vw] md:leading-[3.8vw] sm:text-[4.4vw] sm:leading-[4.2vw] tablet:text-[5vw] mini:text-[32px] tablet:leading-[4.75vw] mini:leading-[32px] mobile:text-[28px] mobile:leading-[28px] micro:text-[26px] micro:leading-[26px] lg:pl-10 md:pl-5 sm:pl-5 tablet:pl-5 mini:px-5 mobile:px-[15px] micro:px-[12px] lg:pr-[20%] md:pr-[2%] sm:pr-[5%] tablet:pr-[5%] py-[50px] border-b-[2px] border-b-solid border-b-black border-opacity-20 opacity-85'>Ochi is a stretegic partner for fast-growing tech businessesthat need to raise funds, sell products, explain complex ideas, and hire great people.</h3>
+          <div class="w-full flex justify-between items-start mini:flex-col mobile:flex-col micro:flex-col lg:px-12 md:px-5 sm:px-5 tablet:px-5 mini:px-5 mobile:px-4 micro:px-3 pt-4 sm:pb-28 tablet:pb-14 mini:pb-20 mobile:pb-20 micro:pb-20 border-b-[2px] border-b-solid border-b-black border-opacity-20 gap-y-6">
+            <div class="lg:w-[50%] md:w-[30%] sm:w-[30%] tablet:hidden mini:w-full mobile:w-full micro:w-full">What you can expect:</div>
+            <div class="lg:w-[50%] md:w-[70%] sm:w-[70%] tablet:w-full mini:w-full mobile:w-full micro:w-full flex justify-start items-start flex-col gap-y-3 mini:gap-y-7 mobile:gap-y-6 micro:gap-y-5 lg:mx-[10vw]">
+              <div class="w-full flex lg:justify-start md:justify-between sm:justify-between tablet:justify-between mini:justify-start mini:items-start mobile:justify-start mobile:items-start micro:justify-start micro:items-start sm:items-end tablet:items-end lg:gap-x-[10vw]">
+                <div class="w-[300px]">
+                  We create tailored presentations to help you persuade your colleagues, clients, or investors. Whether it's live or digital, delivered for one or a hundred people.
+                </div>
+                <div class="w-[100px] mini:hidden mobile:hidden micro:hidden">S:</div>
+              </div>
+              <div class="w-full flex lg:justify-start md:justify-between sm:justify-between tablet:justify-between mini:justify-start mini:items-start mobile:justify-start mobile:items-start micro:justify-start micro:items-start items-start lg:gap-x-[10vw] mini:flex-col mobile:flex-col micro:flex-col gap-y-5">
+                <div class="w-[300px]">
+                  We believe the mix of strategy and design (with a bit of coffee) is what makes your message clear, convincing, and captivating.
+                </div>
+                <div class="w-[100px] hidden mini:inline-block mobile:inline-block micro:inline-block mt-4">S:</div>
+                <div class="w-[100px] flex justify-start items-start flex-col">
+                  <a href="#" class="decoratuion-none border-b-[1px] border-b-solid border-b-black border-opacity-80">Instagram</a>
+                  <a href="#" class="decoratuion-none border-b-[1px] border-b-solid border-b-black border-opacity-80">Behance</a>
+                  <a href="#" class="decoratuion-none border-b-[1px] border-b-solid border-b-black border-opacity-80">Facebook</a>
+                  <a href="#" class="decoratuion-none border-b-[1px] border-b-solid border-b-black border-opacity-80">LinkedIn</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-between items-start sm:flex-row tablet:flex-col mini:flex-col mobile:flex-col micro:flex-col lg:px-12 md:px-3 sm:px-3 tablet:px-8 mini:px-5 mobile:px-[10px] micro:px-[5px] py-4">
+            <div class="tablet:pb-8 mini:pb-7 mobile:pb-6 micro:pb-5">
+              <h2 class="approach text-[4.5vw] tablet:text-[50px] mini:text-[45px] mobile:text-[40px] micro:text-[35px] pb-2 tablet:pb-4 mini:pb-4 mobile:pb-3 micro:pb-2">Our approach</h2>
+              <a href="#"><button class="flex justify-between items-center gap-x-4 bg-zinc-900 text-white lg:w-[180px] lg:h-[55px] md:w-[150px] md:h-[45px] sm:w-[140px] sm:h-[42px]  tablet:w-[180px] tablet:h-[55px] mini:w-[165px] mini:h-[52px] mobile:w-[160px] mobile:h-[50px] micro:w-[160px] micro:h-[50px] rounded-[50px] uppercase lg:px-7 md:px-5 sm:px-4 tablet:px-7 mini:px-6 mobile:px-6 micro:px-6 mobile:scale-[0.9] micro:scale-[0.80]">
+                <div class="text-white opacity-90 text-[14px]">Read More</div><div class="w-[10px] h-[10px] rounded-full bg-white"></div>
+              </button></a>
+            </div>
+            <div class="lg:w-[50%] md:w-[57%] sm:w-[65%] tablet:w-full mini:w-full mobile:w-full micro:w-full flex justify-center items-center">
+              <img src="images/page3.jpg" class="rounded-[20px] mobile:h-[360px] micro:h-[315px] object-center object-cover">
+            </div>
+          </div>
+      </div>
+      <div class='page4 hidden tablet:block sm:block w-full BG-[#F1F1F1] h-[100vh] overflow-hidden lg:translate-y-[-100px] relative z-[3]' data-scroll data-scroll-speed="-10">
+        <div class="flex justify-center items-center sm:w-full sm:h-full tablet:w-full tablet:h-full">
+          <img src='images/eyebg.jpg' class="sm:w-full sm:h-full tablet:w-full tablet:h-full object-cover object-center">
+          <div class='w-full text-center h-[max-content] absolute top-[20%] translate-y-[-20%] flex justify-center items-center gap-x-6' data-scroll data-scroll-speed="2.5">
+            <div class="w-[200px] h-[200px] flex justify-center items-center bg-[#F4F4F4] rounded-full">
+              <div class="w-[65%] h-[65%] rounded-full bg-zinc-950 relative flex justify-center items-center">
+                <div class="text-white text-xl opacity-85">PLAY</div>
+                <div class='eye1 w-full bg-transparent p-x-2 absolute'>
+                  <div class="w-[20px] h-[20px] rounded-full bg-[#F4F4F4]"></div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[200px] h-[200px] flex justify-center items-center bg-[#F4F4F4] rounded-full">
+              <div class="w-[65%] h-[65%] rounded-full bg-zinc-950 relative flex justify-center items-center">
+                <div class=" text-white text-xl opacity-85">PLAY</div>
+                <div class='eye2 w-full bg-transparent p-x-2 absolute'>
+                  <div class="w-[20px] h-[20px] rounded-full bg-[#F4F4F4]"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page5 w-full h-[max-content] bg-[#F1F1F1] relative z-[4] pt-16">
+        <h1 class="w-full lg:text-[50px] md:text-[40px] sm:text-[40px] tablet:text-[38px] mini:text-[38px] mobile:text-[34px] micro:text-[30px] regular lg:font-medium lg:px-12 md:px-6 sm:px-5 tablet:px-8 mini:px-6 mobile:px-4 micro:px-2 py-6 border-b-black border-b-solid border-b-[1px] border-opacity-30">Featured projects</h1>
+        <div class="w-full flex justify-between items-start flex-wrap tablet:flex-col mini:flex-col mobile:flex-col micro:flex-col lg:px-12 md:px-6 sm:px-5 tablet:px-12 mini:px-6 mobile:px-4 micro:px-2 md:pt-10 sm:pt-8 tablet:pt-6 mini:pt-6 mobile:pt-5 micro:pt-4 tablet:gap-y-7 mini:gap-y-7 mobile:gap-y-5 micro:gap-y-5 relative">
+          <div class="sm:w-[49.5%] tablet:w-full mini:w-full mobile:w-full micro:w-full">
+            <div class="w-full flex justify-start items-center gap-x-3 py-3">
+              <div class="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
+              <div>FYDE</div>
+            </div>
+            <div class="page4HoverImg1 w-full mb-3">
+              <img src="images/page5.png" class="w-full rounded-md">
+            </div>
+            <div class="flex justify-start items-center gap-x-3 gap-y-2 flex-wrap">
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">AUDIT</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">COPYWRITING</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">SALES DECK</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">SLIDES DESIGN</button></a>
+            </div>
+          </div>
+          <div class="fyde absolute z-[8] sm:top-[50%] tablet:top-[25%] mini:top-[25%] micro:top-[25%] mobile:top-[25%] left-[50%] translate-x-[-50%] sm:translate-y-[-50%] tablet:translate-y-[-25%] mini:translate-y-[-25%] mobile:translate-y-[-25%] micro:translate-y-[-25%] h-[max-content] overflow-hidden pointer-events-none"><span class="sm:text-[10vw] tablet:text-[15vw] mini:text-[15vw] mobile:text-[17.5vw] micro:text-[20vw] font-bold text-[#85a807] leading-[11.5vw] mini:leading-[12.5vw] mobile:leading-[14.5vw] micro:leading-[18.5vw]">FYDE</span></div>
+          <div class="sm:w-[49.5%] tablet:w-full mini:w-full mobile:w-full micro:w-full">
+            <div class="w-full flex justify-start items-center gap-x-3 py-3">
+              <div class="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
+              <div>VISE</div>
+            </div>
+            <div class="page4HoverImg2 w-full mb-3">
+              <img src="images/page5_2.png" class="w-full rounded-md">
+            </div>
+            <div class="flex justify-start items-center gap-x-3 gap-y-2 flex-wrap">
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">AGENCY</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">COMPANY PRESENTATION</button></a>
+            </div>
+          </div>
+          <div class="vise absolute z-[8] sm:top-[50%] tablet:top-[75%] mini:top-[75%] micro:top-[75%] mobile:top-[75%] left-[50%] translate-x-[-50%] sm:translate-y-[-50%] tablet:translate-y-[-75%] mini:translate-y-[-75%] mobile:translate-y-[-75%] micro:translate-y-[-75%] h-[max-content] overflow-hidden pointer-events-none"><span class="sm:text-[10vw] tablet:text-[15vw] mini:text-[15vw] mobile:text-[17.5vw] micro:text-[20vw] font-bold text-[#85a807] leading-[11.5vw] mini:leading-[12.5vw] mobile:leading-[14.5vw] micro:leading-[18.5vw]">VISE</span></div>
+        </div>
+        <div class="w-full flex justify-between items-start flex-wrap tablet:flex-col mini:flex-col mobile:flex-col micro:flex-col lg:px-12 md:px-6 sm:px-5 tablet:px-12 mini:px-6 mobile:px-4 micro:px-2 pt-10 tablet:gap-y-7 mini:gap-y-7 mobile:gap-y-5 micro:gap-y-5 relative">
+          <div class="sm:w-[49.5%] tablet:w-full mini:w-full mobile:w-full micro:w-full">
+            <div class="w-full flex justify-start items-center gap-x-3 py-3">
+              <div class="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
+              <div>TRAWA</div>
+            </div>
+            <div class="page4HoverImg3 w-full mb-3">
+              <img src="images/page5_3.png" class="w-full rounded-md">
+            </div>
+            <div class="flex justify-start items-center gap-x-3 gap-y-2 flex-wrap">
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">BRAND IDENTITY</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">DESIGN RESEARCH</button></a>
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">INVESTOR DECK</button></a>
+            </div>
+          </div>
+          <div class="trawa absolute z-[8] sm:top-[50%] tablet:top-[25%] mini:top-[25%] micro:top-[25%] mobile:top-[25%] left-[50%] translate-x-[-50%] sm:translate-y-[-50%] tablet:translate-y-[-25%] mini:translate-y-[-25%] mobile:translate-y-[-25%] micro:translate-y-[-25%] h-[max-content] overflow-hidden pointer-events-none"><span class="sm:text-[10vw] tablet:text-[15vw] mini:text-[15vw] mobile:text-[17.5vw] micro:text-[20vw] font-bold text-[#85a807] leading-[11.5vw] mini:leading-[12.5vw] mobile:leading-[14.5vw] micro:leading-[18.5vw]">TRAWA</span></div>
+          <div class="sm:w-[49.5%] tablet:w-full mini:w-full mobile:w-full micro:w-full">
+            <div class="w-full flex justify-start items-center gap-x-3 gap-y-2 py-3">
+              <div class="w-[10px] h-[10px] rounded-full bg-zinc-900"></div>
+              <div>PREMIUM BLEND</div>
+            </div>
+            <div class="page4HoverImg4 w-full mb-3">
+              <img src="images/page5_4.png" class="w-full rounded-md">
+            </div>
+            <div class="flex justify-start items-center gap-x-3 flex-wrap">
+              <a href="#"><button class="text-[14px] px-[10px] py-[2px] rounded-[50px] border-black border-solid border-[1px] border-opacity-70">BRAND TEMPLATE</button></a>
+            </div>
+          </div>
+          <div class="blend absolute z-[8] sm:top-[50%] tablet:top-[75%] mini:top-[75%] micro:top-[75%] mobile:top-[75%] left-[50%] translate-x-[-50%] sm:translate-y-[-50%] tablet:translate-y-[-75%] mini:translate-y-[-75%] mobile:translate-y-[-75%] micro:translate-y-[-75%] h-[max-content] overflow-hidden pointer-events-none"><span class="sm:text-[10vw] tablet:text-[15vw] mini:text-[15vw] mobile:text-[17.5vw] micro:text-[20vw] font-bold text-[#85a807] leading-[11.5vw] mini:leading-[12.5vw] mobile:leading-[14.5vw] micro:leading-[18.5vw] micro:w-[90vw] micro:text-center micro:left-[0%] micro:translate-x-[-0%]">PREMIUM</span></div>
+        </div>
+        <div class="w-full flex justify-center items-center py-24 mini:py-18 mobile:py-14 micro:py-12">
+          <a href="#"><button class="flex items-center gap-x-6 px-6 py-4 rounded-[50px] bg-zinc-900 mobile:scale-[0.9] micro:scale-[0.8]">
+            <div class="text-white opacity-80 mobile:text-[15px] micro:text-[14px]">VIEW ALL CASE STUDIES</div>
+            <div class="w-[10px] h-[10px] rounded-full bg-white"></div>
+          </button></a>
+        </div>
+      </div>
+      <div class="page6 w-full relative z-[4] pt-14 tablet:pt-12 mini:pt-10 mobile:pt-8 micro:pt-6 sm:pb-[250px] pb-[80px] bg-[#F1F1F1]">
+        <h1 class="w-full lg:text-[50px] md:text-[40px] sm:text-[40px] tablet:text-[38px] mini:text-[38px] mobile:text-[34px] micro:text-[30px] regular lg:font-medium lg:px-12 md:px-6 sm:px-5 tablet:px-8 mini:px-6 mobile:px-4 micro:px-2 py-6 border-b-black border-b-solid border-b-[1px] border-opacity-30">Colaborators</h1>
+        <div class="w-full lg:px-10 md:px-9 sm:px-7 tablet:px-5 micro:px-2 mobile:px-4 mini:px-6 pt-14 micro:pt-8 mobile:pt-11 flex justify-between items-center lg:flex-nowrap md:flex-wrap sm:flex-wrap tablet:flex-wrap micro:flex-col mobile:flex-col mini:flex-col md:gap-[15px] sm:gap-[15px] tablet:gap-[15px] micro:gap-y-4 mobile:gap-y-3 mini:gap-y-2">
+          <div class="lg:w-[48%] md:w-full sm:w-full tablet:w-full mobile:w-full mini:w-full micro:w-full h-[350px] rounded-lg relative flex justify-center items-center bg-[#004D43]">
+            <img src="images/page6.svg" class="w-[150px]">
+            <a href="#" class="absolute left-[20px] bottom-[20px] border-[1px] border-solid border-[#CDEA68] border-opacity-50 rounded-[50px] px-3 py-[2px]"><button class="text-[#CDEA68]">Ochi Design</button></a>
+          </div>
+          <div class="lg:w-[25%] md:w-[48.5%] sm:w-[48.5%] tablet:w-[48.5%] mobile:w-full mini:w-full micro:w-full h-[350px] rounded-lg relative flex justify-center items-center bg-zinc-900">
+            <img src="images/page6_2.svg" class="w-[150px]">
+            <a href="#" class="absolute left-[20px] bottom-[20px] border-[1px] border-solid border-[#CDEA68] border-opacity-50 rounded-[50px] px-3 py-[2px]"><button class="text-[#CDEA68]">RATING 5.0 ON CLUTCH</button></a>
+          </div>
+          <div class="lg:w-[25%] md:w-[48.5%] sm:w-[48.5%] tablet:w-[48.5%] mobile:w-full mini:w-full micro:w-full h-[350px] rounded-lg relative flex justify-center items-center bg-zinc-900">
+            <img src="images/page6_3.png" class="w-[150px]">
+            <a href="#" class="absolute left-[20px] bottom-[20px] border-[1px] border-solid border-[#CDEA68] border-opacity-50 rounded-[50px] px-3 py-[2px]"><button class="text-[#CDEA68]">RATING 5.0 ON CLUTCH</button></a>
+          </div>
+        </div>
+      </div>
+      <footer class="w-full min-h-screen relative sm:absolute sm:bottom-0 sm:left-0 lg:px-14 md:px-6 sm:px-4 tablet:px-10 mini:px-6 mobile:px-5 micro:px-4 sm:pt-16 tablet:pt-20 mini:pt-16 mobile:pt-14 micro:pt-12 pb-3 bg-white z-[6]">
+        <div class="flex justify-between items-center tablet:flex-col tablet:items-start tablet justify-start mini:flex-col mini:items-start mini justify-start mobile:flex-col mobile:items-start mobile justify-start micro:flex-col micro:items-start micro justify-start">
+          <div class="self-start">
+            <h1 class="footerEyeHeading lg:text-[10vw] md:text-[90px] sm:text-[80px] tablet:text-[100px] mini:text-[80px] mobile:text-[65px] micro:text-[50px] text-[#1E1E21] font-bold lg:leading-[7.5vw] md:leading-[75px] sm:leading-[67px] tablet:leading-[80px] mini:leading-[65px] mobile:leading-[50px] micro:leading-[35px]">EYE-</h1>
+            <h1 class="footerEyeHeading lg:text-[10vw] md:text-[90px] sm:text-[80px] tablet:text-[100px] mini:text-[80px] mobile:text-[65px] micro:text-[50px] text-[#1E1E21] font-bold lg:leading-[7.5vw] md:leading-[75px] sm:leading-[67px] tablet:leading-[80px] mini:leading-[65px] mobile:leading-[50px] micro:leading-[35px]">OPENING</h1>
+          </div>
+          <div class="lg:max-w-[50%] md:w-[60%] sm:w-[65%] tablet:w-[90%] mini:w-[100%] mobile:w-[100%] micro:w-[100%]">
+            <h1 class="footerEyeHeading lg:text-[10vw] md:text-[90px] sm:text-[80px] tablet:text-[100px] mini:text-[80px] mobile:text-[65px] micro:text-[50px] text-[#1E1E21] font-bold lg:leading-[7.5vw] md:leading-[75px] sm:leading-[67px] tablet:leading-[80px] mini:leading-[65px] mobile:leading-[50px] micro:leading-[35px] mb-5">PRESENTATIONS</h1>
+            <div>
+              <div class="flex flex-col justify-start items-start gap-5 mb-6">
+                <div>S:</div>
+                <div class="flex flex-col justify-start items-start">
+                  <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Intagram</a>
+                  <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Beance</a>
+                  <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Faebook</a>
+                  <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">LikedIn</a>
+                </div>
+              </div>
+              <div class="w-full flex justify-between items-start pr-[5vw] mobile:flex-col mobile:justify-start mobile:items-start micro:flex-col micro:justify-start micro:items-start gap-y-6">
+                <div class="flex flex-col justify-start items-start gap-5">
+                  <div>L:</div>
+                  <div class="flex flex-col justify-start items-start">
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">202-1965 W 4th Ave</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Vancouver Canada</a>
+                  </div>
+                  <div class="flex flex-col justify-start items-start">
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">30 Shukarina St</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Lviv Ukrain</a>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-start items-start gap-5 tablet:translate-y-[-75px] mini:translate-y-[-75px]">
+                  <div>M:</div>
+                  <div class="flex flex-col justify-start items-start">
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Home</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Services</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Our work</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">About us</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Insights</a>
+                    <a href="#" class="border-b-black border-b-solid border-b-[1px] border-opacity-80">Contact us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center pb-4 pt-10 pr-5 tablet:flex-col tablet:justify-start tablet:items-start mini:flex-col mini:justify-start mini:items-start mobile:flex-col mobile:justify-start mobile:items-start micro:flex-col micro:justify-start micro:items-start gap-y-3">
+          <div>
+            <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path><path d="M31.5648 25.7016C28.5393 25.7016 26.0667 23.1156 26.0776 19.9851C26.0936 18.5291 26.6764 17.1366 27.7023 16.1029C28.7282 15.0692 30.1166 14.4757 31.573 14.4482C32.4198 14.4541 33.2537 14.6557 34.0095 15.0373C34.7654 15.4188 35.4227 15.97 35.9301 16.6477L40.0667 15.0144C38.2884 12.0853 35.0669 10.1145 31.4995 10.1989C25.8897 10.3214 21.6142 14.7313 21.6605 20.2709C21.7014 25.3505 26.2382 30.3565 32.3464 29.9183C33.9908 29.7803 35.5761 29.2408 36.9631 28.347C38.3501 27.4532 39.4963 26.2326 40.3009 24.7924L36.2542 22.9931C35.7705 23.8086 35.0851 24.486 34.2638 24.9604C33.4426 25.4347 32.5132 25.69 31.5648 25.7016Z" fill="currentColor"></path><path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path><path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path><path d="M67.6816 0.172852V6.13439H71.5322C71.6738 6.13439 71.8046 6.13439 72.0006 6.11534V0.172852H67.6816Z" fill="currentColor"></path>
+            </svg>
+          </div>
+          <div class="opacity-40 sm:translate-x-[50px]">
+            &copy; ochi design 2024, Legal Terms
+          </div>
+          <div class="opacity-40">
+            Website by obys
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+</body>
+</html>
